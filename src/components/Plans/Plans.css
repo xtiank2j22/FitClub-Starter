@@ -6,18 +6,18 @@
   gap: 4rem;
   position: relative;
 }
-/* blur back shade orange light */
-.plans-blur-1{
-    width: 32rem;
-    height: 23rem;
-    top: 120rem;
-    left: 9rem;
+/* blur back shade orange light""" */
+.plans-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 120rem;
+  left: 9rem;
 }
-.plans-blur-2{
-    width: 32rem;
-    height: 23rem;
-    top: 120rem;
-    right: 9rem;
+.plans-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 120rem;
+  right: 9rem;
 }
 .plans {
   display: flex;
@@ -75,15 +75,15 @@
 .plans > :nth-child(2) > button {
   color: orange;
 }
-@media  screen and (max-width: 768px) {
-  .plans{
+@media screen and (max-width: 768px) {
+  .plans {
     flex-direction: column;
   }
-  .plans>:nth-child(2){
+  .plans > :nth-child(2) {
     transform: none;
   }
-  .plans-blur-1
-  ,.plans-blur-2{
+  .plans-blur-1,
+  .plans-blur-2 {
     width: 5rem;
     height: 110rem;
     top: 220rem;
