@@ -82,4 +82,11 @@
   .plans>:nth-child(2){
     transform: none;
   }
+  .plans-blur-1
+  ,.plans-blur-2{
+    width: 5rem;
+    height: 110rem;
+    top: 220rem;
+    left: 9rem;
+  }
 }

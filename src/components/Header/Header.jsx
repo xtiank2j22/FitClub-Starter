@@ -60,12 +60,16 @@ function Header() {
               Why us
             </Link>
           </li>
-          <li><Link 
-            onClick={() => setMenuOpened(false)}
+          <li>
+            <Link
+              onClick={() => setMenuOpened(false)}
               to="plans-container"
               span={true}
               smooth={true}
-          >Plans</Link></li>
+            >
+              Plans
+            </Link>
+          </li>
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
