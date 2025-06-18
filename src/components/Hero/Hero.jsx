@@ -29,7 +29,7 @@ const Hero = () => {
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
           {/* // for the animation ends */}
-          <span>The best fitness club in town</span>
+          <span>DO best fitness club in town</span>
         </div>
         {/* Hero heading text */}
         <div className="hero-text">
