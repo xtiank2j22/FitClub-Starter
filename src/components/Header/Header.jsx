@@ -20,6 +20,7 @@ function Header() {
             padding: "0.5rem",
             borderRadius: "5px",
           }}
+          // onclick eff
           onClick={() => setMenuOpened(true)}
         >
           <img
